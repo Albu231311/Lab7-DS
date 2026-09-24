@@ -1,0 +1,24 @@
+# Salidas generadas (Parquet y modelos): se regeneran corriendo el notebook
+working_dir/parquet/
+working_dir/models/
+*.parquet
+
+# Archivos temporales que crea Excel al tener un archivo abierto
+~$*
+
+# Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Archivos que genera Spark al correr en local
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
