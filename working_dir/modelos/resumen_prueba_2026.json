@@ -1,0 +1,41 @@
+{
+  "periodos_entrenamiento": [
+    "2025T1",
+    "2025T2",
+    "2025T3",
+    "2025T4"
+  ],
+  "periodo_prueba": "2026T1",
+  "registros_entrenamiento": 53025,
+  "registros_prueba": 13258,
+  "configuracion_lr": {
+    "configuracion": "Sin regularización",
+    "regParam": 0.0,
+    "elasticNetParam": 0.0
+  },
+  "configuracion_rf": {
+    "configuracion": "RF-C",
+    "numTrees": 150,
+    "maxDepth": 10,
+    "seed": 42
+  },
+  "media_entrenamiento": 3421.6842055634133,
+  "metricas_prueba": {
+    "Referencia: media de entrenamiento": {
+      "MAE": 1718.0860053858778,
+      "RMSE": 2871.420677311329,
+      "R2": -0.002525217118244827
+    },
+    "Regresión lineal (Sin regularización)": {
+      "MAE": 1240.710546571663,
+      "RMSE": 2163.7517029745654,
+      "R2": 0.4307323509027098
+    },
+    "Random Forest (RF-C)": {
+      "MAE": 1103.8788467706636,
+      "RMSE": 1959.9471799289395,
+      "R2": 0.5329209444373044
+    }
+  },
+  "version_spark": "3.5.1"
+}
