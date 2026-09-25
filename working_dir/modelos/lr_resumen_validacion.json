@@ -1,0 +1,36 @@
+{
+  "configuracion": {
+    "configuracion": "Sin regularización",
+    "regParam": 0.0,
+    "elasticNetParam": 0.0
+  },
+  "periodos_entrenamiento": [
+    "2025T1",
+    "2025T2",
+    "2025T3"
+  ],
+  "periodo_validacion": "2025T4",
+  "predictores_numericos": [
+    "edad",
+    "antiguedad",
+    "horas_semanales"
+  ],
+  "predictores_categoricos": [
+    "nivel_educativo",
+    "categoria_ocupacional",
+    "dominio"
+  ],
+  "objetivo": "salario_mensual",
+  "media_entrenamiento": 3383.124996902951,
+  "metricas_validacion_lr": {
+    "MAE": 1210.137480432609,
+    "RMSE": 2186.4195786682258,
+    "R2": 0.4256745540389787
+  },
+  "metricas_validacion_referencia": {
+    "MAE": 1672.5026056434951,
+    "RMSE": 2889.5714322659624,
+    "R2": -0.003131603852495113
+  },
+  "version_spark": "3.5.1"
+}
