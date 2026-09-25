@@ -1,8 +1,8 @@
 {
   "configuracion": {
-    "configuracion": "Sin regularización",
-    "regParam": 0.0,
-    "elasticNetParam": 0.0
+    "configuracion": "RF-C",
+    "numTrees": 150,
+    "maxDepth": 10
   },
   "periodos_entrenamiento": [
     "2025T1",
@@ -21,7 +21,13 @@
     "dominio"
   ],
   "objetivo": "salario_mensual",
+  "seed": 42,
   "media_entrenamiento": 3383.124996902951,
+  "metricas_validacion_rf": {
+    "MAE": 1075.4859516880726,
+    "RMSE": 1982.775366172192,
+    "R2": 0.5276781113426494
+  },
   "metricas_validacion_lr": {
     "MAE": 1210.1374804326083,
     "RMSE": 2186.4195786682253,
